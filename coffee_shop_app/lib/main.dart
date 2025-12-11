@@ -39,9 +39,9 @@ class MyApp extends StatelessWidget {
             title: 'Coffee Shop',
             debugShowCheckedModeBanner: false,
 
-            theme: AppTheme.lightTheme, // <-- استخدم الثيم الفاتح المخصص
-            darkTheme: AppTheme.darkTheme, // <-- استخدم الثيم الداكن المخصص
-            themeMode: state.themeMode, // <-- أهم سطر
+            theme: AppTheme.lightTheme,
+            darkTheme: AppTheme.darkTheme,
+            themeMode: state.themeMode,
             home: const SplashScreen(),
           );
         },
